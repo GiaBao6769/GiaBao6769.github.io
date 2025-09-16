@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to bottom, white, lightgoldenrodyellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+main{
+    margin: 10px;
+    text-align:justify
+}
+
+#logo_img{
+    border-radius: 100px;
+}
+
+#youtubelink{
+    color: #ff0000;
+}
+#youtubelink:hover{
+    color:#ff6a6a;
+    font-size: 1.1em;
+}
+#youtubelink:active{
+    color:#560000;
+    font-size: 1.1em;
+}
+
+
+li:hover{
+    background-color:#ffffb4;
+}
+/* li:not(:hover){
+    background-color:#dadab9;
+} */
+/* li:nth-child(2n){
+    background-color:#eeebc8;
+} */
+
+h1:first-letter{
+    font-size: 2em;
+    font-style:italic;
+}
+
+p::selection{
+    color: rgb(49, 0, 0);
+    background-color:rgb(224, 196, 70);
+}
+
+#hobbieslist li::marker{
+    content: "- ";
+    color: black;
+    font-size: 1.2em;
+}
+
+.navbar a{
+    color:white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(66, 69, 44);
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a:hover{
+    background-color:rgba(255, 232, 119, 0.199);
+    color:black;
+    font-style:italic;
+}
